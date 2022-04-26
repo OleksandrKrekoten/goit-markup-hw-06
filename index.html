@@ -492,16 +492,21 @@
             </li>
           </ul>
         </div>
-        <div>
+        
           <form class=" js-newsletter-form" >
+          <p class="footer-submit-text">Подпишитесь на рассылку</p>
             <div class="footer-form">
-              <label class="footer-label">Подпишитесь на рассылку
-                <input type="email" name="newsletter" placeholder="webstudio@mail.com" class="footer-input">
-              </label>
+              <label class="footer-label" for="newsletter">   </label>
+              <input type="email" name="newsletter" id="newsletter" placeholder="webstudio@mail.com" class="footer-input">
+              <button type="submit" class="btn-footer button">Подписаться
+                <svg width="24" height="24" class="icon-send">
+                  <use href="./images/icon.svg#icon-send"></use>
+                </svg>
+              </button>
             </div>
-            <button type="submit" class="btn-footer button">Подписаться</button>
+            
           </form>
-        </div>
+        
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -533,9 +538,12 @@
               <label for="comment" class="form-label">Комментарий</label>
               <textarea name="comment" rows="10" id="comment" placeholder="Введите текст" class="form-textarea"></textarea>
             </div>
-          
-            <label for="">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
-              <input type="checkbox" name="checkbox" value="Условия договора"></label>
+          <div>
+            <input type="checkbox" name="checkbox" value="Условия договора" id="checkbox" class="checkbox-input">
+            <label for="checkbox" class="checkbox-label">Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-link">Условия
+                договора</a>
+            </label>
+          </div>
             <button type="submit" class="modal-btn button">Отправить</button>
           </form>
       </div>

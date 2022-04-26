@@ -442,35 +442,58 @@ p {
 
 .social-navigation {
   margin-left: 70px;
+  margin-right: 93px;
 }
 .btn-footer{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
+
   font-size: 16px;
   line-height: 1.87;
-  padding: 10px 55px;
+  padding: 10px 29px;
+  min-height:50px ;
+  min-width: 200px;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--accent-color-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
 }
-.footer-form{
-  margin: 0;
+.icon-send{
+  fill: var(--accent-color-text);
+  margin-left: 10px;
+
+}
+.js-newsletter-form{
+  
+align-items: center; 
+ margin: 0;
   padding: 0;
 }
-.footer-label{
+.footer-form{
   
+}
+.footer-submit-text{
   font-weight: 700;
   font-size: 14px;
   line-height:1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   
-  color: #FFFFFF;
-  
+  color: var(--accent-color-text);
 }
 .footer-input{
-  
+  background-color: transparent;
   margin-top: 20px;
+  padding-left:16px ;
+  padding-top:15px ;
+  padding-bottom:15px ;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
 }
 .projects {
   padding-top: 65px;
@@ -683,6 +706,22 @@ letter-spacing: 0.01em;
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 12px 16px;
+  resize: none;
+}
+.checkbox-label {
+  
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  
+  color:var(--primary-text-color);
+}
+
+.checkbox-input {
+  margin-bottom: 30px;
+}
+.checkbox-link{
+  color: var(--accent-color);
 }
 .modal-title{
   font-weight: 700;

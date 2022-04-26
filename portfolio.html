@@ -215,7 +215,8 @@
     <footer class="page-footer">
         <div class="container footer-flex">
             <div>
-                <a href="./index.html" class="logo-footer logo link"> <span class="logo-accent">Web</span> Studio</a>
+                <a href="./index.html" class="logo-footer logo link">
+                    <span class="logo-accent">Web</span> Studio</a>
                 <address class="address">
                     <ul class="address-list list">
                         <li>
@@ -224,7 +225,9 @@
                                 г. Киев, пр-т Леси Украинки, 26
                             </a>
                         </li>
-                        <li><a href="mailto:info@example.com" class="address-item link">info@example.com</a></li>
+                        <li>
+                            <a href="mailto:info@example.com" class="address-item link">info@example.com</a>
+                        </li>
                         <li><a href="tel:+380991111111" class="address-item link">+38 099 111 11 11</a></li>
                     </ul>
                 </address>
@@ -233,7 +236,7 @@
                 <p class="footer-title">присоединяйтесь</p>
                 <ul class="footer-social-list list">
                     <li class="footer-social-item">
-                        <a href="https://www.instagram.com/" class="footer-social-link" target="_blank"
+                        <a href="https://www.instagram.com/" class="footer-social-link link" target="_blank"
                             rel="noreferrer noopener">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icon.svg#icon-instagram"></use>
@@ -241,14 +244,15 @@
                         </a>
                     </li>
                     <li class="footer-social-item">
-                        <a href="https://twitter.com/" class="footer-social-link" target="_blank" rel="noreferrer noopener">
+                        <a href="https://twitter.com/" class="footer-social-link link" target="_blank"
+                            rel="noreferrer noopener">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icon.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social-item">
-                        <a href="https://www.facebook.com/" class="footer-social-link" target="_blank"
+                        <a href="https://www.facebook.com/" class="footer-social-link link" target="_blank"
                             rel="noreferrer noopener">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icon.svg#icon-facebook"></use>
@@ -256,7 +260,7 @@
                         </a>
                     </li>
                     <li class="footer-social-item">
-                        <a href="https://www.linkedin.com/" class="footer-social-link" target="_blank"
+                        <a href="https://www.linkedin.com/" class="footer-social-link link" target="_blank"
                             rel="noreferrer noopener">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icon.svg#icon-linkedin"></use>
@@ -265,8 +269,23 @@
                     </li>
                 </ul>
             </div>
-        </div>
     
+            <form class=" js-newsletter-form">
+                <p class="footer-submit-text">Подпишитесь на рассылку</p>
+                <div class="footer-form">
+                    <label class="footer-label" for="newsletter"> </label>
+                    <input type="email" name="newsletter" id="newsletter" placeholder="webstudio@mail.com"
+                        class="footer-input">
+                    <button type="submit" class="btn-footer button">Подписаться
+                        <svg width="24" height="24" class="icon-send">
+                            <use href="./images/icon.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+    
+            </form>
+    
+        </div>
     </footer>
 </body>
 </html>
