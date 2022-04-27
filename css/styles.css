@@ -789,6 +789,10 @@ align-items: center;
   border-color: var(--accent-color);
   fill: var(--accent-color-text);
 }
+.checkbox:focus~.checkbox-icon,
+.checkbox:hover~.checkbox-icon{
+  border-color: var(--accent-color);
+}
 .checkbox-link{
   
   color: var(--accent-color);
